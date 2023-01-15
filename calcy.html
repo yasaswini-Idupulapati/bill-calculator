@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="calcyy.css" class="css">
+</head>
+<body style="background-color:  rgb(230, 254, 255);">
+    
+    <div class="wrapper">
+        <div class="top-container">
+            <div class="title">Bill Cost</div> 
+            <div class="input-container">
+                <span>$</span1>
+                <input type="text"
+                id = "billInput"
+                onkeyup=calculateBill()
+                placeholder = '0.00'/>
+            </div>  <br>
+            <div class="title">Tip Percent</div>
+            <div class="input-container">
+                <span>%</span1>
+                <input type="text"
+                id = "tipInput"
+                onkeyup=calculateBill()
+                placeholder = "0.00"/>
+            </div>         
+        </div>
+        <div class="bottom-container">
+            <div id=" split-container">
+                 <div class="title">People</div>
+                <div id="controls">
+                 <div class="button-container">
+                  <span class="split-button">
+                    <button id="increment" onclick=incre()>
+                        <span>+</span>
+                    </button> </span>
+                 </div>
+                    <span class="split-person" id="numberOfPeople">1</span>
+                 <div class="button-container"></div>
+                  <span class="split-button">
+                    <button id="decrement" onclick=decre()>
+                        <span>-</span>
+                    </button></span>
+                </div>
+            </div>
+            <div id="total-container">
+                 <div class="title">Total Amount</div> 
+                <div id="result">$0.00</div>
+            </div>
+        </div>
+    </div>
+    <script src="calcyyy.js"></script>
+</body>
+</html>

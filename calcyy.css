@@ -1,0 +1,98 @@
+html, body {
+    display: flex;
+    height : 100%;
+    width : 100%;
+    margin: 0;
+    padding: 0;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-weight: 600;
+    background-size: 100%;
+    justify-content: center;
+    align-items: center;
+    color: white;
+}
+
+.wrapper {
+    background-color: rgb(32, 36, 59);
+    height: 400px;
+    width: 250px;
+    padding: 50px;
+    position: absolute;
+box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.596);
+
+}
+
+.top-container {
+    margin-top: 20px;
+   }
+
+.input-container {
+    margin-top: 10px;
+    border: 5px;
+    padding: 2px;
+    border-radius: 10px;
+    background-color: rgb(230, 254, 255);
+}
+
+#billInput, #tipInput{
+    border: none;
+    background-color: rgb(230, 254, 255);
+    outline: 0ch;
+}
+
+
+span{
+    color: rgb(224, 147, 3);
+}
+
+.bottom-container {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-top: 70px;
+}
+
+#controls {
+    display: flex;   
+    align-items: center;
+    justify-content:space-between;
+}
+
+.split-button {
+    background: none;
+    border: 0ch;
+}
+
+.split-person {
+    margin: 10px;
+}
+
+button {
+    font-size: 16px;
+    border: 0ch;
+    border-radius: 50%;
+    height: 20px;
+    width: 20px;
+    align-items: center;
+    justify-content: center;
+    display: grid; 
+
+}
+
+#total-container {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-end;
+    overflow: hidden;
+}
+
+
+
+#result{
+    margin: 10px;
+    color: rgb(4, 241, 230);
+}
+
+
+
+
